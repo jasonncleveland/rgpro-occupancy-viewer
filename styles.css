@@ -1,0 +1,19 @@
+.popup {
+  overflow-y: scroll;
+  text-align: center;
+  width: 375px;
+  background-color: lightgrey;
+}
+
+.gym-item {
+  margin: 5px;
+}
+
+.gym-item>iframe {
+  min-height: 210px;
+
+  border-color: black;
+  border-style: ridge;
+  border-width: 3;
+  border-radius: 5px;
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Climbing Gym Status Watcher",
+  "description": "View the occupancy status of your favourite climbing gyms",
+  "version": "1.0",
+  "manifest_version": 3,
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": [
+    "storage"
+  ]
+}
